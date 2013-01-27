@@ -23,7 +23,7 @@
 #ifdef DEBUG
     [[FTBlogManager sharedManager] setupDummyBlogs];
 #endif
-    
+
     //Check if any blogs, if not load the wizard
     //Otherwise load the blog menu (or saved state from last load
     self.blogListWindowController = [[FTBlogListWindowController alloc] initWithWindowNibName:@"FTBlogListWindowController"];

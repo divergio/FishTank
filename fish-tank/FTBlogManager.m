@@ -27,7 +27,7 @@
 //I should adopt some mock-up stuff probably but this will do for now.
 - (void) setupDummyBlogs
 {
-    NSUInteger arraySize =  + (arc4random() % 5);
+    NSUInteger arraySize = 5 + (arc4random() % 5);
 
     NSMutableArray *dummyArray = [[NSMutableArray alloc] initWithCapacity:arraySize];
     

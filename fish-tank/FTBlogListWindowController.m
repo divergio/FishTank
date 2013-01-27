@@ -19,9 +19,6 @@
 
 //Based on this template http://www.gentlebytes.com/2011/08/view-based-table-views-in-lion-part-1-of-2/
 - (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {
-#ifdef DEBUG
-    NSLog(@"%@",[[FTBlogManager sharedManager] blogList]);
-#endif
     return [[[FTBlogManager sharedManager] blogList] count];
 }
 
@@ -36,12 +33,6 @@
     
     return cell;
 }
-
-- (id) tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
-{
-    return [self tableView:tableView viewForTableColumn:tableColumn row:row];
-}
-
 
 - (void)windowDidLoad
 {
