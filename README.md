@@ -35,7 +35,7 @@ I will also say that this harkens back to old WYSWIYG HTML-authorship tools like
 
 It's nice.
 
-# Setup
+## Setup
 
 You have to init the submodules. 
 
