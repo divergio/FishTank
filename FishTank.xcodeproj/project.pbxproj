@@ -13,22 +13,71 @@
 		5669A91716B52A1B00365686 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5669A91516B52A1B00365686 /* Credits.rtf */; };
 		5669A91A16B52A1B00365686 /* FTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669A91916B52A1B00365686 /* FTAppDelegate.m */; };
 		5669A91D16B52A1B00365686 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5669A91B16B52A1B00365686 /* MainMenu.xib */; };
+		5669A93616B52BC900365686 /* ObjectiveGitFramework.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 5669A93516B52BC900365686 /* ObjectiveGitFramework.xcodeproj */; };
+		5669A97216B52CC000365686 /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5669A95516B52C7900365686 /* ObjectiveGit.framework */; };
+		5669A97416B52CEC00365686 /* ObjectiveGit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5669A95516B52C7900365686 /* ObjectiveGit.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5669A95416B52C7900365686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5669A93516B52BC900365686 /* ObjectiveGitFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = ObjectiveGit;
+		};
+		5669A95616B52C7900365686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5669A93516B52BC900365686 /* ObjectiveGitFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04DB4645133AB57600D9C624;
+			remoteInfo = "ObjectiveGit-iOS";
+		};
+		5669A95816B52C7900365686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5669A93516B52BC900365686 /* ObjectiveGitFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88F05A6B16011E5400B7AD1D;
+			remoteInfo = ObjectiveGitTests;
+		};
+		5669A97016B52CB300365686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5669A93516B52BC900365686 /* ObjectiveGitFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = ObjectiveGit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5669A97316B52CCD00365686 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5669A97416B52CEC00365686 /* ObjectiveGit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		5669A90216B52A1B00365686 /* fish-tank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fish-tank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5669A90216B52A1B00365686 /* FishTank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishTank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5669A90616B52A1B00365686 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5669A90916B52A1B00365686 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5669A90A16B52A1B00365686 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5669A90B16B52A1B00365686 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5669A90E16B52A1B00365686 /* fish-tank-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fish-tank-Info.plist"; sourceTree = "<group>"; };
+		5669A90E16B52A1B00365686 /* FishTank-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FishTank-Info.plist"; sourceTree = "<group>"; };
 		5669A91016B52A1B00365686 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5669A91216B52A1B00365686 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5669A91416B52A1B00365686 /* fish-tank-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fish-tank-Prefix.pch"; sourceTree = "<group>"; };
+		5669A91416B52A1B00365686 /* FishTank-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FishTank-Prefix.pch"; sourceTree = "<group>"; };
 		5669A91616B52A1B00365686 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		5669A91816B52A1B00365686 /* FTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAppDelegate.h; sourceTree = "<group>"; };
 		5669A91916B52A1B00365686 /* FTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAppDelegate.m; sourceTree = "<group>"; };
 		5669A91C16B52A1B00365686 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5669A93516B52BC900365686 /* ObjectiveGitFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectiveGitFramework.xcodeproj; path = "objective-git/ObjectiveGitFramework.xcodeproj"; sourceTree = "<group>"; };
+		5669A97516B5303600365686 /* FishTank.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FishTank.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5669A97216B52CC000365686 /* ObjectiveGit.framework in Frameworks */,
 				5669A90716B52A1B00365686 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +96,8 @@
 		5669A8F716B52A1B00365686 = {
 			isa = PBXGroup;
 			children = (
+				5669A97516B5303600365686 /* FishTank.entitlements */,
+				5669A93516B52BC900365686 /* ObjectiveGitFramework.xcodeproj */,
 				5669A90C16B52A1B00365686 /* fish-tank */,
 				5669A90516B52A1B00365686 /* Frameworks */,
 				5669A90316B52A1B00365686 /* Products */,
@@ -55,7 +107,7 @@
 		5669A90316B52A1B00365686 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5669A90216B52A1B00365686 /* fish-tank.app */,
+				5669A90216B52A1B00365686 /* FishTank.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,33 +145,45 @@
 		5669A90D16B52A1B00365686 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5669A90E16B52A1B00365686 /* fish-tank-Info.plist */,
+				5669A90E16B52A1B00365686 /* FishTank-Info.plist */,
 				5669A90F16B52A1B00365686 /* InfoPlist.strings */,
 				5669A91216B52A1B00365686 /* main.m */,
-				5669A91416B52A1B00365686 /* fish-tank-Prefix.pch */,
+				5669A91416B52A1B00365686 /* FishTank-Prefix.pch */,
 				5669A91516B52A1B00365686 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5669A94D16B52C7900365686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5669A95516B52C7900365686 /* ObjectiveGit.framework */,
+				5669A95716B52C7900365686 /* libObjectiveGit-iOS.a */,
+				5669A95916B52C7900365686 /* ObjectiveGitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5669A90116B52A1B00365686 /* fish-tank */ = {
+		5669A90116B52A1B00365686 /* FishTank */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5669A92016B52A1B00365686 /* Build configuration list for PBXNativeTarget "fish-tank" */;
+			buildConfigurationList = 5669A92016B52A1B00365686 /* Build configuration list for PBXNativeTarget "FishTank" */;
 			buildPhases = (
 				5669A8FE16B52A1B00365686 /* Sources */,
 				5669A8FF16B52A1B00365686 /* Frameworks */,
 				5669A90016B52A1B00365686 /* Resources */,
+				5669A97316B52CCD00365686 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5669A97116B52CB300365686 /* PBXTargetDependency */,
 			);
-			name = "fish-tank";
+			name = FishTank;
 			productName = "fish-tank";
-			productReference = 5669A90216B52A1B00365686 /* fish-tank.app */;
+			productReference = 5669A90216B52A1B00365686 /* FishTank.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +196,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Tyler Barth";
 			};
-			buildConfigurationList = 5669A8FC16B52A1B00365686 /* Build configuration list for PBXProject "fish-tank" */;
+			buildConfigurationList = 5669A8FC16B52A1B00365686 /* Build configuration list for PBXProject "FishTank" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -142,12 +206,42 @@
 			mainGroup = 5669A8F716B52A1B00365686;
 			productRefGroup = 5669A90316B52A1B00365686 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5669A94D16B52C7900365686 /* Products */;
+					ProjectRef = 5669A93516B52BC900365686 /* ObjectiveGitFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				5669A90116B52A1B00365686 /* fish-tank */,
+				5669A90116B52A1B00365686 /* FishTank */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5669A95516B52C7900365686 /* ObjectiveGit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectiveGit.framework;
+			remoteRef = 5669A95416B52C7900365686 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5669A95716B52C7900365686 /* libObjectiveGit-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libObjectiveGit-iOS.a";
+			remoteRef = 5669A95616B52C7900365686 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5669A95916B52C7900365686 /* ObjectiveGitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ObjectiveGitTests.octest;
+			remoteRef = 5669A95816B52C7900365686 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5669A90016B52A1B00365686 /* Resources */ = {
@@ -157,6 +251,7 @@
 				5669A91116B52A1B00365686 /* InfoPlist.strings in Resources */,
 				5669A91716B52A1B00365686 /* Credits.rtf in Resources */,
 				5669A91D16B52A1B00365686 /* MainMenu.xib in Resources */,
+				5669A93616B52BC900365686 /* ObjectiveGitFramework.xcodeproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +268,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5669A97116B52CB300365686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjectiveGit;
+			targetProxy = 5669A97016B52CB300365686 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5669A90F16B52A1B00365686 /* InfoPlist.strings */ = {
@@ -258,11 +361,13 @@
 		5669A92116B52A1B00365686 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FishTank.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "fish-tank/fish-tank-Prefix.pch";
-				INFOPLIST_FILE = "fish-tank/fish-tank-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "fish-tank/FishTank-Prefix.pch";
+				INFOPLIST_FILE = "fish-tank/FishTank-Info.plist";
+				PRODUCT_NAME = FishTank;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -270,11 +375,13 @@
 		5669A92216B52A1B00365686 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FishTank.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "fish-tank/fish-tank-Prefix.pch";
-				INFOPLIST_FILE = "fish-tank/fish-tank-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "fish-tank/FishTank-Prefix.pch";
+				INFOPLIST_FILE = "fish-tank/FishTank-Info.plist";
+				PRODUCT_NAME = FishTank;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -282,7 +389,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5669A8FC16B52A1B00365686 /* Build configuration list for PBXProject "fish-tank" */ = {
+		5669A8FC16B52A1B00365686 /* Build configuration list for PBXProject "FishTank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5669A91E16B52A1B00365686 /* Debug */,
@@ -291,13 +398,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5669A92016B52A1B00365686 /* Build configuration list for PBXNativeTarget "fish-tank" */ = {
+		5669A92016B52A1B00365686 /* Build configuration list for PBXNativeTarget "FishTank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5669A92116B52A1B00365686 /* Debug */,
 				5669A92216B52A1B00365686 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
