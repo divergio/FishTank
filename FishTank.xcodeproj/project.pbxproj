@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56353A3516B53D0B00ECD553 /* FTRepoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56353A3416B53D0B00ECD553 /* FTRepoManager.m */; };
-		56353A3816B53D2300ECD553 /* FTRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 56353A3716B53D2300ECD553 /* FTRepository.m */; };
+		56353A3516B53D0B00ECD553 /* FTBlogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56353A3416B53D0B00ECD553 /* FTBlogManager.m */; };
+		56353A3816B53D2300ECD553 /* FTBlog.m in Sources */ = {isa = PBXBuildFile; fileRef = 56353A3716B53D2300ECD553 /* FTBlog.m */; };
+		56353A6616B54B1200ECD553 /* FTBlogListWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56353A6416B54B1200ECD553 /* FTBlogListWindowController.m */; };
+		56353A6716B54B1200ECD553 /* FTBlogListWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56353A6516B54B1200ECD553 /* FTBlogListWindowController.xib */; };
 		5669A90716B52A1B00365686 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5669A90616B52A1B00365686 /* Cocoa.framework */; };
 		5669A91116B52A1B00365686 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5669A90F16B52A1B00365686 /* InfoPlist.strings */; };
 		5669A91316B52A1B00365686 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669A91216B52A1B00365686 /* main.m */; };
@@ -65,10 +67,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		56353A3316B53D0B00ECD553 /* FTRepoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTRepoManager.h; sourceTree = "<group>"; };
-		56353A3416B53D0B00ECD553 /* FTRepoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTRepoManager.m; sourceTree = "<group>"; };
-		56353A3616B53D2300ECD553 /* FTRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTRepository.h; sourceTree = "<group>"; };
-		56353A3716B53D2300ECD553 /* FTRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTRepository.m; sourceTree = "<group>"; };
+		56353A3416B53D0B00ECD553 /* FTBlogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBlogManager.m; sourceTree = "<group>"; };
+		56353A3616B53D2300ECD553 /* FTBlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBlog.h; sourceTree = "<group>"; };
+		56353A3716B53D2300ECD553 /* FTBlog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBlog.m; sourceTree = "<group>"; };
+		56353A6216B5427100ECD553 /* FTBlogManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTBlogManager.h; sourceTree = "<group>"; };
+		56353A6316B54B1200ECD553 /* FTBlogListWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTBlogListWindowController.h; sourceTree = "<group>"; };
+		56353A6416B54B1200ECD553 /* FTBlogListWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTBlogListWindowController.m; sourceTree = "<group>"; };
+		56353A6516B54B1200ECD553 /* FTBlogListWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTBlogListWindowController.xib; sourceTree = "<group>"; };
 		5669A90216B52A1B00365686 /* FishTank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishTank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5669A90616B52A1B00365686 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5669A90916B52A1B00365686 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -102,10 +107,13 @@
 		56353A2016B537EF00ECD553 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				56353A3316B53D0B00ECD553 /* FTRepoManager.h */,
-				56353A3416B53D0B00ECD553 /* FTRepoManager.m */,
-				56353A3616B53D2300ECD553 /* FTRepository.h */,
-				56353A3716B53D2300ECD553 /* FTRepository.m */,
+				56353A6216B5427100ECD553 /* FTBlogManager.h */,
+				56353A3416B53D0B00ECD553 /* FTBlogManager.m */,
+				56353A3616B53D2300ECD553 /* FTBlog.h */,
+				56353A3716B53D2300ECD553 /* FTBlog.m */,
+				56353A6316B54B1200ECD553 /* FTBlogListWindowController.h */,
+				56353A6416B54B1200ECD553 /* FTBlogListWindowController.m */,
+				56353A6516B54B1200ECD553 /* FTBlogListWindowController.xib */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -270,6 +278,7 @@
 				5669A91716B52A1B00365686 /* Credits.rtf in Resources */,
 				5669A91D16B52A1B00365686 /* MainMenu.xib in Resources */,
 				5669A93616B52BC900365686 /* ObjectiveGitFramework.xcodeproj in Resources */,
+				56353A6716B54B1200ECD553 /* FTBlogListWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +291,9 @@
 			files = (
 				5669A91316B52A1B00365686 /* main.m in Sources */,
 				5669A91A16B52A1B00365686 /* FTAppDelegate.m in Sources */,
-				56353A3516B53D0B00ECD553 /* FTRepoManager.m in Sources */,
-				56353A3816B53D2300ECD553 /* FTRepository.m in Sources */,
+				56353A3516B53D0B00ECD553 /* FTBlogManager.m in Sources */,
+				56353A3816B53D2300ECD553 /* FTBlog.m in Sources */,
+				56353A6616B54B1200ECD553 /* FTBlogListWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

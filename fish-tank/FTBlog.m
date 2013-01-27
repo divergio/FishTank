@@ -6,8 +6,13 @@
 //  Copyright (c) 2013年 Tyler Barth. All rights reserved.
 //
 
-#import "FTRepository.h"
+#import "FTBlog.h"
+@interface FTBlog ()
+
+@property (nonatomic, strong) NSURL* directory;
 
 @implementation FTRepository
+
+
 
 @end

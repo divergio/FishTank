@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FTRepository : NSObject
+@interface FTBlog : NSObject
+
+- (void) initBlog:(NSString*)blogTitle;
+- (void) initBlog:(NSString*)fromRepoInDirectory:(NSURL*) url;
 
 @end

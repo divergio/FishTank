@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FTRepoManager : NSObject
+@interface FTBlogManager : NSObject
+@property (nonatomic, strong) NSArray* blogList;
+
++ (FTBlogManager*) sharedManager;
 
 @end
