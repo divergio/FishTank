@@ -1,4 +1,4 @@
-# Fish Tank 0.1
+##What is Fish Tank?
 
 Fish Tank is an easy-to-use (I hope!) OS X GUI for the static blogging framework [Octopress](http://octopress.org "octopress").
 
@@ -21,9 +21,9 @@ But later, I hope to add features like
 * "Cloud" backup to GitHub, Dropbox, and maybe others
 * Walkthroughs for setting up Disqus, Flickr, etc. 
 
-#FAQ
+##FAQ
 
-##Wait a second, isn't this against the purpose of Octopress? I mean isn't Octopress the "framework for hackers"?
+###Wait a second, isn't this against the purpose of Octopress? I mean isn't Octopress the "framework for hackers"?
 
 Well, yes and no. Just because you're a hacker doesn't *necessarily* mean that you want to crawl through a text file to change the color of your background, or run `rake` commands to upload your website.
 
@@ -31,7 +31,7 @@ Also, I think there are actually a lot of cases where even non-hackers could app
 
 I will also say that this harkens back to old WYSWIYG HTML-authorship tools like Microsoft Frontpage Express, except that instead of creating individual pages a novice user should be able to create a full static blog site (with all the fancy features of Octopress) to be hosted anywhere.
 
-##Why Octopress?
+###Why Octopress?
 
 It's nice.
 
@@ -39,13 +39,13 @@ It's nice.
 
 You have to init the submodules. 
 
-# Known limitations
+## Known limitations
 
 For now, I'm locking down the Octopress version for each release. I can't predict how updates to Octopress might break the manipulations the GUI does on the blog repository. 
 
 I also don't support importing existing Octopress blogs now because I haven't decided how to deal with existing template modifications. 
 
-# Copyright and License
+## Copyright and License
 
 Copyright 2013 Tyler Barth
 
