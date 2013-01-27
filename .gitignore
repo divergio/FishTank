@@ -1,0 +1,8 @@
+*.lock
+.DS_Store
+*.xcuserdatad/*
+fish-tank.xcodeproj/xcuserdata/tylerbarth.xcuserdatad/xcschemes/xcschememanagement.plist
+
+fish-tank.xcodeproj/xcuserdata/tylerbarth.xcuserdatad/xcschemes/fish-tank.xcscheme
+
+fish-tank.xcodeproj/project.xcworkspace/xcuserdata/tylerbarth.xcuserdatad/UserInterfaceState.xcuserstate

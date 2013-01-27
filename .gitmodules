@@ -1,0 +1,6 @@
+[submodule "octopress"]
+	path = octopress
+	url = git://github.com/imathis/octopress.git
+[submodule "objective-git"]
+	path = objective-git
+	url = git://github.com/libgit2/objective-git.git
