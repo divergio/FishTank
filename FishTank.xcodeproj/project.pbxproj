@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56353A3516B53D0B00ECD553 /* FTRepoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56353A3416B53D0B00ECD553 /* FTRepoManager.m */; };
+		56353A3816B53D2300ECD553 /* FTRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 56353A3716B53D2300ECD553 /* FTRepository.m */; };
 		5669A90716B52A1B00365686 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5669A90616B52A1B00365686 /* Cocoa.framework */; };
 		5669A91116B52A1B00365686 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5669A90F16B52A1B00365686 /* InfoPlist.strings */; };
 		5669A91316B52A1B00365686 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669A91216B52A1B00365686 /* main.m */; };
@@ -63,6 +65,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		56353A3316B53D0B00ECD553 /* FTRepoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTRepoManager.h; sourceTree = "<group>"; };
+		56353A3416B53D0B00ECD553 /* FTRepoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTRepoManager.m; sourceTree = "<group>"; };
+		56353A3616B53D2300ECD553 /* FTRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTRepository.h; sourceTree = "<group>"; };
+		56353A3716B53D2300ECD553 /* FTRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTRepository.m; sourceTree = "<group>"; };
 		5669A90216B52A1B00365686 /* FishTank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishTank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5669A90616B52A1B00365686 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5669A90916B52A1B00365686 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -93,6 +99,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56353A2016B537EF00ECD553 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56353A3316B53D0B00ECD553 /* FTRepoManager.h */,
+				56353A3416B53D0B00ECD553 /* FTRepoManager.m */,
+				56353A3616B53D2300ECD553 /* FTRepository.h */,
+				56353A3716B53D2300ECD553 /* FTRepository.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		5669A8F716B52A1B00365686 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +151,7 @@
 		5669A90C16B52A1B00365686 /* fish-tank */ = {
 			isa = PBXGroup;
 			children = (
+				56353A2016B537EF00ECD553 /* Model */,
 				5669A91816B52A1B00365686 /* FTAppDelegate.h */,
 				5669A91916B52A1B00365686 /* FTAppDelegate.m */,
 				5669A91B16B52A1B00365686 /* MainMenu.xib */,
@@ -264,6 +282,8 @@
 			files = (
 				5669A91316B52A1B00365686 /* main.m in Sources */,
 				5669A91A16B52A1B00365686 /* FTAppDelegate.m in Sources */,
+				56353A3516B53D0B00ECD553 /* FTRepoManager.m in Sources */,
+				56353A3816B53D2300ECD553 /* FTRepository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
