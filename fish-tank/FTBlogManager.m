@@ -7,6 +7,7 @@
 //
 
 #import "FTBlogManager.h"
+#import "FTBlog.h"
 #import <ObjectiveGit/ObjectiveGit.h>
 
 @implementation FTBlogManager
@@ -16,10 +17,25 @@
     static FTBlogManager *sharedManager = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        sharedInstance = [[sharedManager alloc] init];
+        sharedManager = [[FTBlogManager alloc] init];
         // Do any other initialisation stuff here
+
     });
     return sharedManager;
+}
+
+//I should adopt some mock-up stuff probably but this will do for now.
+- (void) setupDummyBlogs
+{
+    NSUInteger arraySize =  + (arc4random() % 5);
+
+    NSMutableArray *dummyArray = [[NSMutableArray alloc] initWithCapacity:arraySize];
+    
+    for (int i = 0; i < arraySize; ++i) {
+        [dummyArray setObject:[FTBlog dummyBlog] atIndexedSubscript:i];
+    }
+
+    [self setBlogList:dummyArray];
 }
 
 @end

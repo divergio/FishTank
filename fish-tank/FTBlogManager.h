@@ -13,4 +13,6 @@
 
 + (FTBlogManager*) sharedManager;
 
+- (void) setupDummyBlogs;
+
 @end

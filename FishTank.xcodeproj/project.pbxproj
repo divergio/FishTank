@@ -20,6 +20,9 @@
 		5669A93616B52BC900365686 /* ObjectiveGitFramework.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 5669A93516B52BC900365686 /* ObjectiveGitFramework.xcodeproj */; };
 		5669A97216B52CC000365686 /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5669A95516B52C7900365686 /* ObjectiveGit.framework */; };
 		5669A97416B52CEC00365686 /* ObjectiveGit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5669A95516B52C7900365686 /* ObjectiveGit.framework */; };
+		56C7554816B579BB003D3F5D /* FTBlogManagerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C7554716B579BB003D3F5D /* FTBlogManagerCell.m */; };
+		56C7554B16B57F2C003D3F5D /* divergio_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56C7554916B57F2C003D3F5D /* divergio_icon.png */; };
+		56C7554C16B57F2C003D3F5D /* donburi recipe.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 56C7554A16B57F2C003D3F5D /* donburi recipe.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +92,10 @@
 		5669A91C16B52A1B00365686 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5669A93516B52BC900365686 /* ObjectiveGitFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectiveGitFramework.xcodeproj; path = "objective-git/ObjectiveGitFramework.xcodeproj"; sourceTree = "<group>"; };
 		5669A97516B5303600365686 /* FishTank.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FishTank.entitlements; sourceTree = "<group>"; };
+		56C7554616B579BB003D3F5D /* FTBlogManagerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTBlogManagerCell.h; path = Controller/FTBlogManagerCell.h; sourceTree = "<group>"; };
+		56C7554716B579BB003D3F5D /* FTBlogManagerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTBlogManagerCell.m; path = Controller/FTBlogManagerCell.m; sourceTree = "<group>"; };
+		56C7554916B57F2C003D3F5D /* divergio_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = divergio_icon.png; sourceTree = "<group>"; };
+		56C7554A16B57F2C003D3F5D /* donburi recipe.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "donburi recipe.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +118,6 @@
 				56353A3416B53D0B00ECD553 /* FTBlogManager.m */,
 				56353A3616B53D2300ECD553 /* FTBlog.h */,
 				56353A3716B53D2300ECD553 /* FTBlog.m */,
-				56353A6316B54B1200ECD553 /* FTBlogListWindowController.h */,
-				56353A6416B54B1200ECD553 /* FTBlogListWindowController.m */,
-				56353A6516B54B1200ECD553 /* FTBlogListWindowController.xib */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -162,7 +166,13 @@
 				56353A2016B537EF00ECD553 /* Model */,
 				5669A91816B52A1B00365686 /* FTAppDelegate.h */,
 				5669A91916B52A1B00365686 /* FTAppDelegate.m */,
+				56353A6316B54B1200ECD553 /* FTBlogListWindowController.h */,
+				56353A6416B54B1200ECD553 /* FTBlogListWindowController.m */,
+				56353A6516B54B1200ECD553 /* FTBlogListWindowController.xib */,
+				56C7554616B579BB003D3F5D /* FTBlogManagerCell.h */,
+				56C7554716B579BB003D3F5D /* FTBlogManagerCell.m */,
 				5669A91B16B52A1B00365686 /* MainMenu.xib */,
+				56C7554D16B57F30003D3F5D /* Resources */,
 				5669A90D16B52A1B00365686 /* Supporting Files */,
 			);
 			path = "fish-tank";
@@ -188,6 +198,15 @@
 				5669A95916B52C7900365686 /* ObjectiveGitTests.octest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		56C7554D16B57F30003D3F5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56C7554916B57F2C003D3F5D /* divergio_icon.png */,
+				56C7554A16B57F2C003D3F5D /* donburi recipe.JPG */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +298,8 @@
 				5669A91D16B52A1B00365686 /* MainMenu.xib in Resources */,
 				5669A93616B52BC900365686 /* ObjectiveGitFramework.xcodeproj in Resources */,
 				56353A6716B54B1200ECD553 /* FTBlogListWindowController.xib in Resources */,
+				56C7554B16B57F2C003D3F5D /* divergio_icon.png in Resources */,
+				56C7554C16B57F2C003D3F5D /* donburi recipe.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +315,7 @@
 				56353A3516B53D0B00ECD553 /* FTBlogManager.m in Sources */,
 				56353A3816B53D2300ECD553 /* FTBlog.m in Sources */,
 				56353A6616B54B1200ECD553 /* FTBlogListWindowController.m in Sources */,
+				56C7554816B579BB003D3F5D /* FTBlogManagerCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,12 +413,11 @@
 		5669A92116B52A1B00365686 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = FishTank.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fish-tank/FishTank-Prefix.pch";
 				INFOPLIST_FILE = "fish-tank/FishTank-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = FishTank;
 				WRAPPER_EXTENSION = app;
 			};
@@ -405,12 +426,11 @@
 		5669A92216B52A1B00365686 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = FishTank.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fish-tank/FishTank-Prefix.pch";
 				INFOPLIST_FILE = "fish-tank/FishTank-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = FishTank;
 				WRAPPER_EXTENSION = app;
 			};

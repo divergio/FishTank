@@ -7,27 +7,46 @@
 //
 
 #import "FTBlogListWindowController.h"
+#import "FTBlogManagerCell.h"
+#import "FTBlogManager.h"
+#import "FTBlog.h"
 
-@interface FTBlogListWindowController ()
+@interface FTBlogListWindowController () <NSTableViewDataSource>
 
 @end
 
 @implementation FTBlogListWindowController
 
-- (id)initWithWindow:(NSWindow *)window
-{
-    self = [super initWithWindow:window];
-    if (self) {
-        // Initialization code here.
-    }
-    
-    return self;
+//Based on this template http://www.gentlebytes.com/2011/08/view-based-table-views-in-lion-part-1-of-2/
+- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {
+#ifdef DEBUG
+    NSLog(@"%@",[[FTBlogManager sharedManager] blogList]);
+#endif
+    return [[[FTBlogManager sharedManager] blogList] count];
 }
+
+
+- (NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
+    FTBlogManagerCell *cell = [tableView makeViewWithIdentifier:tableColumn.identifier owner:self];
+    FTBlog *blog = [[[FTBlogManager sharedManager] blogList] objectAtIndex:row];
+
+    [cell.titleTextField setStringValue:blog.title];
+    [cell.summaryTextField setStringValue:blog.description];
+    [cell.imageView setImage:blog.icon];
+    
+    return cell;
+}
+
+- (id) tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
+{
+    return [self tableView:tableView viewForTableColumn:tableColumn row:row];
+}
+
 
 - (void)windowDidLoad
 {
     [super windowDidLoad];
-    
+
     // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
 }
 

@@ -10,7 +10,13 @@
 
 @interface FTBlog : NSObject
 
-- (void) initBlog:(NSString*)blogTitle;
-- (void) initBlog:(NSString*)fromRepoInDirectory:(NSURL*) url;
+@property (nonatomic,strong) NSString* title;
+@property (nonatomic, strong) NSString* description;
+@property (nonatomic, strong) NSImage* icon;
+
+- (id) initBlog:(NSString*)blogTitle;
+- (id) initBlog:(NSString*)fromRepoInDirectory:(NSURL*) url;
+
++ (FTBlog*) dummyBlog;
 
 @end
