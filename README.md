@@ -49,4 +49,4 @@ I also don't support importing existing Octopress blogs now because I haven't de
 
 Copyright 2013 Tyler Barth
 
-See LICENSE.
+See LICENSE. Actually, I don't know yet. Probably MIT.
